@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PERSONALIZE: título e descrição -->
+  <title>Vellum · Modelo demonstrativo de portfólio</title>
+  <meta name="description" content="Modelo demonstrativo Dark Premium para sites institucionais. Conteúdo entre colchetes é espaço reservado.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#111010">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <p class="demo-banner">Projeto demonstrativo de portfólio · empresa e informações fictícias</p>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Vellum, ir para o início">VELLUM</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="menu-label">Menu</span>
+      </button>
+      <nav id="menu-principal" class="nav" aria-label="Principal">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#processo">Processo</a></li>
+          <li><a class="btn btn-contorno" href="#contato" data-whatsapp>Iniciar conversa</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-texto" data-reveal>
+          <p class="etiqueta">[Segmento] · [Cidade/UF]</p>
+          <!-- PERSONALIZE: título curto e forte. Use <em> na palavra de destaque. -->
+          <h1>Presença à altura do que você <em>constrói.</em></h1>
+          <p class="lead">Texto de apoio em duas frases: o que o negócio oferece, para quem e como começa a conversa. Substitua pelo texto real.</p>
+          <div class="botoes">
+            <a class="btn btn-cheio" href="#contato" data-whatsapp>Agendar conversa</a>
+            <a class="btn btn-contorno" href="#servicos">Conhecer os serviços</a>
+          </div>
+        </div>
+        <figure class="hero-fig">
+          <!-- PERSONALIZE IMAGEM: troque o <div class="ph"...> por
+               <img src="img/hero.jpg" alt="Descrição" width="1000" height="1250" fetchpriority="high">
+               (primeira dobra: SEM loading="lazy"). Formato ideal: vertical 4:5. -->
+          <div class="media r-tall ph" data-parallax data-ph="Foto principal · 1000 × 1250 px" role="img" aria-label="Espaço reservado para foto principal"></div>
+          <figcaption class="legenda">Nº 01 — [Legenda da imagem]</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="section">
+      <div class="container sobre-grid">
+        <div class="sobre-texto" data-reveal>
+          <p class="etiqueta"><span class="num-sec">01</span> Sobre</p>
+          <h2>[Título institucional em <em>poucas palavras</em>]</h2>
+          <p>[Parágrafo 1: quem é a marca e o que oferece, em linguagem refinada e verdadeira.]</p>
+          <p>[Parágrafo 2: como o trabalho é conduzido e o que o cliente encontra.]</p>
+          <dl class="dados">
+            <div><dt>Segmento</dt><dd>[Segmento de atuação]</dd></div>
+            <div><dt>Atendimento</dt><dd>[Cidade, região ou modalidade]</dd></div>
+          </dl>
+        </div>
+        <div class="sobre-imgs" data-reveal>
+          <!-- PERSONALIZE: <img src="img/sobre-1.jpg" alt="..." width="800" height="1000" loading="lazy"> -->
+          <div class="media r-tall ph a" data-ph="Imagem 1 · 800 × 1000 px" role="img" aria-label="Espaço reservado para imagem da marca"></div>
+          <div class="media r-quad ph b" data-ph="Imagem 2 · 600 × 600 px" role="img" aria-label="Espaço reservado para imagem de detalhe"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS: para adicionar, copie um <li>. Para remover, apague. -->
+    <section id="servicos" class="section grafite">
+      <div class="container">
+        <p class="etiqueta" data-reveal><span class="num-sec">02</span> Serviços</p>
+        <h2 data-reveal>[Título da seção de <em>serviços</em>]</h2>
+        <ol class="serv">
+          <li data-reveal><span class="n">01</span><h3>[Serviço 1]</h3><p>[Descrição curta em uma ou duas frases.]</p><a class="seta" href="#contato" data-whatsapp>Saber mais<span class="sr-only"> sobre o serviço 1</span></a></li>
+          <li data-reveal><span class="n">02</span><h3>[Serviço 2]</h3><p>[Descrição curta em uma ou duas frases.]</p><a class="seta" href="#contato" data-whatsapp>Saber mais<span class="sr-only"> sobre o serviço 2</span></a></li>
+          <li data-reveal><span class="n">03</span><h3>[Serviço 3]</h3><p>[Descrição curta em uma ou duas frases.]</p><a class="seta" href="#contato" data-whatsapp>Saber mais<span class="sr-only"> sobre o serviço 3</span></a></li>
+          <li data-reveal><span class="n">04</span><h3>[Serviço 4]</h3><p>[Descrição curta em uma ou duas frases.]</p><a class="seta" href="#contato" data-whatsapp>Saber mais<span class="sr-only"> sobre o serviço 4</span></a></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- DIFERENCIAIS (3 a 4; só o que for comprovável) -->
+    <section id="diferenciais" class="section">
+      <div class="container">
+        <p class="etiqueta" data-reveal><span class="num-sec">03</span> Diferenciais</p>
+        <h2 data-reveal>Por que <em>Vellum</em></h2>
+        <ul class="dif">
+          <li data-reveal><span class="dn" aria-hidden="true">i.</span><h3>[Diferencial 1]</h3><p>Uma ou duas frases sobre o que isso muda para o cliente.</p></li>
+          <li data-reveal><span class="dn" aria-hidden="true">ii.</span><h3>[Diferencial 2]</h3><p>Uma ou duas frases sobre o que isso muda para o cliente.</p></li>
+          <li data-reveal><span class="dn" aria-hidden="true">iii.</span><h3>[Diferencial 3]</h3><p>Uma ou duas frases sobre o que isso muda para o cliente.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- DESTAQUE: imagem de sangria + frase de impacto -->
+    <section class="destaque" aria-labelledby="t-destaque">
+      <!-- PERSONALIZE: troque por <img class="destaque-img" src="img/destaque.jpg" alt="" width="1600" height="900" loading="lazy"> -->
+      <div class="destaque-bg media ph" data-parallax data-ph="Imagem ampla · 1600 × 900 px" aria-hidden="true"></div>
+      <div class="container destaque-inner" data-reveal>
+        <p class="etiqueta">Em destaque</p>
+        <h2 id="t-destaque">“[Frase de posicionamento da marca, <em>curta e precisa</em>.]”</h2>
+        <a class="btn btn-cheio" href="#contato" data-whatsapp>Falar sobre isto</a>
+      </div>
+    </section>
+
+    <!-- PROCESSO (opcional: apague a <section> para remover) -->
+    <section id="processo" class="section">
+      <div class="container processo-grid">
+        <div data-reveal>
+          <p class="etiqueta"><span class="num-sec">04</span> Processo</p>
+          <h2>Como <em>trabalhamos</em></h2>
+        </div>
+        <ol class="linha">
+          <li data-reveal><h3>[Etapa 1]</h3><p>[Ex.: conversa inicial para entender a necessidade.]</p></li>
+          <li data-reveal><h3>[Etapa 2]</h3><p>[Ex.: proposta e alinhamento de prazos.]</p></li>
+          <li data-reveal><h3>[Etapa 3]</h3><p>[Ex.: execução com acompanhamento.]</p></li>
+          <li data-reveal><h3>[Etapa 4]</h3><p>[Ex.: entrega e suporte.]</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- PROVA SOCIAL: apenas EXEMPLO. Substitua por depoimentos reais e autorizados, ou apague a seção. -->
+    <section class="section grafite" aria-labelledby="t-prova">
+      <div class="container">
+        <p class="etiqueta">Prova social · exemplo</p>
+        <h2 id="t-prova" data-reveal>[Título: <em>o que dizem</em> os clientes]</h2>
+        <p class="aviso-ex">Exemplos fictícios e substituíveis. Não representam clientes reais.</p>
+        <div class="provas">
+          <figure data-reveal><blockquote>[Texto de depoimento de exemplo. Use apenas relatos reais, com autorização por escrito.]</blockquote><figcaption>[Nome ou iniciais do cliente]</figcaption></figure>
+          <figure data-reveal><blockquote>[Segundo depoimento de exemplo, também substituível.]</blockquote><figcaption>[Nome ou iniciais do cliente]</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="container faq-grid">
+        <h2 data-reveal>Perguntas <em>frequentes</em></h2>
+        <div>
+          <details><summary>Como inicio uma conversa ou peço orçamento?</summary><p>Pelos botões de WhatsApp desta página. A mensagem inicial é neutra e não pede dados pessoais.</p></details>
+          <details><summary>Quais são as formas de pagamento?</summary><p>[Descrever formas e condições.]</p></details>
+          <details><summary>Como os prazos são definidos?</summary><p>[Descrever como os prazos são combinados.]</p></details>
+          <details><summary>Quais regiões vocês atendem?</summary><p>[Descrever áreas atendidas e se há atendimento on-line.]</p></details>
+          <details><summary>Qual é o horário de atendimento?</summary><p>[Descrever dias e horários.]</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO / CTA FINAL -->
+    <section id="contato" class="contato">
+      <div class="container contato-inner" data-reveal>
+        <p class="etiqueta">Contato</p>
+        <h2>Vamos começar uma <em>conversa?</em></h2>
+        <p class="lead">[Frase curta convidando ao contato.]</p>
+        <a class="btn btn-cheio btn-grande" href="#contato" data-whatsapp>Chamar no WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <p id="aviso" class="aviso" role="status" aria-live="polite"></p>
+
+  <!-- FOOTER: PERSONALIZE os dados -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><p class="brand">VELLUM</p><p>[Descrição breve da marca.]</p></div>
+      <nav aria-label="Rodapé"><h2 class="footer-titulo">Navegação</h2>
+        <ul><li><a href="#inicio">Início</a></li><li><a href="#sobre">Sobre</a></li><li><a href="#servicos">Serviços</a></li><li><a href="#contato">Contato</a></li></ul></nav>
+      <div><h2 class="footer-titulo">Contato</h2>
+        <ul><li>[Endereço]</li><li>[Telefone]</li><li>[E-mail]</li><li>[Horário]</li></ul></div>
+      <div><h2 class="footer-titulo">Redes</h2><ul><li>[Rede social 1]</li><li>[Rede social 2]</li></ul></div>
+    </div>
+    <div class="container footer-base"><p>Projeto demonstrativo de portfólio, com empresa fictícia. Não coleta dados nem usa rastreadores.</p></div>
+  </footer>
+</body>
+</html>
